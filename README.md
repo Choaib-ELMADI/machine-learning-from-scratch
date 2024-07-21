@@ -1,32 +1,30 @@
 # Machine Learning from Scratch
 
-Welcome to the "Machine Learning from Scratch" repository! This project aims to demystify the inner workings of popular machine learning algorithms by implementing them from the ground up. Each algorithm is explained in detail, with step-by-step code and theoretical explanations.
-
-## Acknowledgements
+Welcome to the `machine-learning-from-scratch` repository! This project aims to demystify the inner workings of popular machine learning algorithms by implementing them from the ground up.
 
 This repository is inspired by the desire to understand machine learning algorithms by implementing them from scratch. It is intended for educational purposes and to foster a deeper understanding of how these algorithms work.
 
 ## Algorithms Included
 
-1. **K-Nearest Neighbors (KNN)**
+- [**K-Nearest Neighbors (KNN)**](./README.md)
 
-2. **Linear Regression**
+- [**Linear Regression**](./README.md)
 
-3. **Logistic Regression**
+- [**Logistic Regression**](./README.md)
 
-4. **Decision Trees**
+- [**Decision Trees**](./README.md)
 
-5. **Random Forest**
+- [**Random Forest**](./README.md)
 
-6. **Naive Bayes**
+- [**Naive Bayes**](./README.md)
 
-7. **Principal Component Analysis (PCA)**
+- [**Principal Component Analysis (PCA)**](./README.md)
 
-8. **Perceptron**
+- [**Perceptron**](./README.md)
 
-9. **Support Vector Machine (SVM)**
+- [**Support Vector Machine (SVM)**](./README.md)
 
-10. **K-Means Clustering**
+- [**K-Means Clustering**](./README.md)
 
 ## Getting Started
 
