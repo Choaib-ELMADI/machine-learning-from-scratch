@@ -1,3 +1,5 @@
+[![Choaib ELMADI - ML](https://img.shields.io/badge/Choaib_ELMADI-ML-8800dd)](https://elmadichoaib.vercel.app) ![Status - Learning](https://img.shields.io/badge/Status-Learning-2bd729) [![Credit - AssemblyAI](https://img.shields.io/badge/Credit-AssemblyAI-3b8af2)](https://www.youtube.com/@AssemblyAI)
+
 # Machine Learning from Scratch
 
 Welcome to the `machine-learning-from-scratch` repository! This project aims to demystify the inner workings of popular machine learning algorithms by implementing them from the ground up.
