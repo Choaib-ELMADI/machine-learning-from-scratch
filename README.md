@@ -8,7 +8,7 @@ This repository is inspired by the desire to understand machine learning algorit
 
 ## Algorithms Included
 
-- [**K-Nearest Neighbors (KNN)**](./README.md)
+- [**K-Nearest Neighbors (KNN)**](./K-Nearest%20Neighbors)
 
 - [**Linear Regression**](./README.md)
 

@@ -1,5 +1,5 @@
-import numpy as np
 from collections import Counter
+import numpy as np
 
 
 def euclidean_distance(x1, x2):
