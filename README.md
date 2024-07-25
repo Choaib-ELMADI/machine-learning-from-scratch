@@ -10,7 +10,7 @@ This repository is inspired by the desire to understand machine learning algorit
 
 - [**K-Nearest Neighbors (KNN)**](./K-Nearest%20Neighbors)
 
-- [**Linear Regression**](./README.md)
+- [**Linear Regression**](./Linear%20Regression)
 
 - [**Logistic Regression**](./README.md)
 

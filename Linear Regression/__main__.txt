@@ -1,0 +1,17 @@
+* Estimation:
+    With linear regression, what we are trying to do is to understand the pattern or the slope of a given dataset:
+        * y = w.x + b
+        >> w is the weight
+        >> b is the bias
+
+* Calculating Error:
+    To calculate the error of this line: y = w.x + b, we use mean squared error:
+        * MSE = J(w, b) = 1/N * Sum((yi - (w.xi + b))²) with i from 1 --> N
+        >> MSE is the mean squared error
+        >> yi is the actual value of a data point
+        >> (w.xi + b) is the estimated value of a data point
+        >> N is the number of data points in the dataset
+
+    To find the best fitting line, we need to find values for our model parameters (w, b) that will give us the minimum MSE.
+    To do this, we'll need to calculate the derivative (or gradient) of MSE:
+        * J'(w, b)  = transpose([df/dw df/db])
