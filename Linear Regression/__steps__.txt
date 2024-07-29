@@ -1,0 +1,14 @@
+* Steps:
+    What we do with linear regression:
+        -> Training:
+            - Initialize weight as zero
+            - Initialize bias as zero
+
+        -> Given a data point:
+            - Predict result by using: y = w.x + b
+            - Calculate error
+            - Use gradient descent to figure out new weight and bias values
+            - Repeat n times
+
+        -> Testing:
+            - Given a data point, put in the values from the data point into the equation: y = w.x + b

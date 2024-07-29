@@ -1,5 +1,7 @@
 * Estimation:
-    With linear regression, what we are trying to do is to understand the pattern or the slope of a given dataset:
+    With linear regression, what we are trying to do is to understand the pattern or the slope of a given dataset.
+
+    The assumption that we're making is that this dataset has a linear pattern:
         * y = w.x + b
         >> w is the weight
         >> b is the bias
@@ -12,6 +14,21 @@
         >> (w.xi + b) is the estimated value of a data point
         >> N is the number of data points in the dataset
 
+* Updating Parameters:
     To find the best fitting line, we need to find values for our model parameters (w, b) that will give us the minimum MSE.
-    To do this, we'll need to calculate the derivative (or gradient) of MSE:
-        * J'(w, b)  = transpose([df/dw df/db])
+
+    To do that, we'll need to calculate the derivative (or gradient) of MSE:
+        * J'(w, b) = transpose([df/dw df/db])
+
+* Gradient Descent:
+    What we do with gradient descent, is we calculate -at a point where we have our parameter value- which direction to go -using the derivatives of the cost function- to minimize the error (MSE in our case).
+
+    Once we have this derivative, we multiply it with a learning rate and then we subtract it from the wieght or the bias:
+        * w = w - a.dw
+        * b = b - a.db
+        >> a is the learning rate
+
+    And that's how the parameters are updated.
+
+* Learning Rate:
+    The learning rate tells us how fast or slow to go in the direction that gradient descent tells us to go.
