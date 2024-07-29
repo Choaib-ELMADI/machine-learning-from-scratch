@@ -1,0 +1,7 @@
+* Steps:
+    What we do with KNN:
+        -> Given a data point:
+            - Calculate its distance from all other data points in the dataset
+            - Get the closest K points
+            - In regression, get the average of their values
+            - In classification, get the label with majority vote
