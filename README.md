@@ -32,7 +32,7 @@ This repository is inspired by the desire to understand machine learning algorit
 
 To run the code in this repository, you will need:
 
-- Python 3.x
+- Python 3
 - NumPy
 - Pandas
 - Matplotlib (for visualization)
