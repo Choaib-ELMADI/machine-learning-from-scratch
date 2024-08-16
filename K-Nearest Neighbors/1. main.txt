@@ -1,0 +1,18 @@
+1. Definition:
+    => K-Nearest Neighbors (KNN) is a simple, non-parametric algorithm used for classification and regression tasks.
+    -> It predicts the class or value of a data point by considering the classes or values of its nearest neighbors in the feature space.
+
+2. Use Cases:
+    - Classification:
+        * Image Classification: Categorizing images based on similarity to labeled images.
+        * Document Classification: Sorting texts into categories like spam or non-spam.
+        * Medical Diagnosis: Classifying patients based on symptoms.
+    - Regression:
+        * Predicting Housing Prices: Estimating house prices based on nearby similar houses.
+        * Stock Price Prediction: Predicting future stock prices using historical data.
+
+3. Key Points to Consider:
+    * Simplicity: Easy to implement and understand.
+    * Distance Metric: Performance depends on the chosen distance metric (e.g., Euclidean).
+    * No Training Phase: KNN does not require training, making it suitable for dynamic datasets.
+    * Computational Cost: Can be slow for large datasets, as it requires distance calculations for every prediction.
