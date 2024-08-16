@@ -1,0 +1,15 @@
+* Steps:
+    What we do with logistic regression:
+        -> Training:
+            - Initialize weights as zero
+            - Initialize bias as zero
+
+        -> Given a data point:
+            - Predict result by using: y = 1 / (1 + e^(-w.x + b))
+            - Calculate error
+            - Use gradient descent to figure out new weight and bias values
+            - Repeat n times
+
+        -> Testing:
+            - Given a data point, put in the values from the data point into the equation: y = 1 / (1 + e^(-w.x + b))
+            - Choose the label based on the probability

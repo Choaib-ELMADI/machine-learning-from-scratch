@@ -1,0 +1,12 @@
+* Estimation:
+    With logistic regression, what we are trying to do is to create probabilities instead of a specific value.
+    
+    And to do that, what we are going to do is to put in our value inside the sigmoid function:
+        * σ(x) = 1 / (1 + e^(-x))
+    and then get a probability distribution that will be between 0 and 1.
+
+    The equation, then, goes from y = w.x + b to y = 1 / (1 + e^(-w.x + b)).
+
+* Calculating Error:
+    In logistic regression, instead of using mean squared error, we are using something called cross entropy:
+        * J(w, b) = J(θ)

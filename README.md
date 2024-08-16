@@ -12,7 +12,7 @@ This repository is inspired by the desire to understand machine learning algorit
 
 - [**Linear Regression**](./Linear%20Regression)
 
-- [**Logistic Regression**](./README.md)
+- [**Logistic Regression**](./Logistic%20Regression)
 
 - [**Decision Trees**](./README.md)
 
