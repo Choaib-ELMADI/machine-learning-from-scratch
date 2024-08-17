@@ -1,9 +1,15 @@
+1. Definition:
+    => Logistic Regression is a supervised learning algorithm used for binary classification problems.
+    -> Unlike linear regression, which is used for predicting continuous values, logistic regression is used to predict the probability of a binary outcome.
+    -> The core idea is to model the probability that a given input belongs to a particular class.
+
 * Estimation:
     With logistic regression, what we are trying to do is to create probabilities instead of a specific value.
     
     And to do that, what we are going to do is to put in our value inside the sigmoid function:
         * σ(x) = 1 / (1 + e^(-x))
     and then get a probability distribution that will be between 0 and 1.
+    This probability is used to classify the input into one of the two classes (1 if P is above a threshold, typically 0.5, and 0 otherwise).
 
     The equation, then, goes from y = w.x + b to y = 1 / (1 + e^(-w.x + b)).
 
