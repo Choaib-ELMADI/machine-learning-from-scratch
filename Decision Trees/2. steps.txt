@@ -1,0 +1,26 @@
+* Steps:
+    What we do with decision trees:
+        -> Training, given the whole dataset:
+            - Calculate information gain with each possible split
+            - Divide set with that feature and value that gives the most IG
+            - Divide tree and do the same for all created branches
+            - ...until a stopping criteria is reached
+
+        -> Testing:
+            - Given a data point, follow the tree until you reach a leaf node
+            - Return the most common class label
+
+* Terms:
+    * IG = E(parent) - [weighted average] * E(children)
+        >> IG refers to information gain
+        >> E is the entropy, which basically means lack of order
+            * E = -Sum(p(x) * log2(p(x)))
+                * p(x) = #x / n
+                    >> #x is the number of times a class has occured in a node
+                    >> n is the number of total nodes
+
+    * Stopping Criteria:
+        - Maximum depth
+        - Minimum number of samples
+        - Minimum impurity decrease
+        - ...

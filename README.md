@@ -14,7 +14,7 @@ This repository is inspired by the desire to understand machine learning algorit
 
 - [**Logistic Regression**](./Logistic%20Regression)
 
-- [**Decision Trees**](./README.md)
+- [**Decision Trees**](./Decision%20Trees)
 
 - [**Random Forest**](./README.md)
 

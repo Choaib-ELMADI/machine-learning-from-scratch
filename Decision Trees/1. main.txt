@@ -1,0 +1,11 @@
+1. Definition:
+    => A Decision Tree is a supervised learning algorithm that works by splitting the data into subsets based on the most significant attribute at each node.
+    -> This forms a tree structure where:
+        - each internal node represents a decision rule on an attribute
+        - each branch represents the outcome of the rule
+        - each leaf node represents the final output or decision
+
+2. Tree Structure:
+    => Root node: The top node of the tree that represents the entire dataset.
+    => Internal nodes: Nodes that represent tests or decisions based on an attribute. These nodes split the data into subsets based on a condition.
+    => Leaf nodes: The terminal nodes that represent the final decision or output.
